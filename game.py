@@ -1,16 +1,31 @@
-print("Rock, Paper, Scissors, Shoot!")
 import random
 
 print("Welcome Player One! Lets play rock, paper, scissors, shoot!")
+print("Welcome! Lets play rock, paper, scissors, shoot!")
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+x = os.getenv("PLAYER_NAME")
+print("Welcome ",x,"! Lets play rock, paper, scissors, shoot!")
+
+
+#PROMPT USER FOR INPUT
+
+#x = input("choose 'rock' or 'paper' or 'scissors'")
 user_choice = input("choose 'rock' or 'paper' or 'scissors': ")
+
+# adpated from code shared by Dominic Parente
 if user_choice in ["rock","paper","scissors"]:
     print("user chose:") 
     print(user_choice)
 else:
-    print("You choice is not valid. Try typing somehting else, and let's keep it lowercase!")
+    print("You choice is not valid. Try typing something else, and let's keep it lowercase!")
     print("Try again")
     exit()
+
+# COMPUTER CHOICE (AT RANDOM)
 
 options = ["rock", "paper", "scissors"]
 
@@ -34,3 +49,13 @@ else: print("Tie! Looks like you picked the same choice!")
 
 
 print("Thanks for playing! Lets go again!")
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+x = os.getenv("PLAYER_NAME")
+print("")
+
+
