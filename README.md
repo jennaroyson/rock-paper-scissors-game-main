@@ -1,4 +1,6 @@
-#READ.md for rock-paper-scissors game
+#READ.md for 
+
+##ROCK-PAPER-SCISSORS GAME
 
 ## Prerequisites
 
@@ -13,7 +15,7 @@ Fork this [remote repository](https://github.com/jennaroyson/rock-paper-scissors
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
 
-## Setup
+## Activation
 
 After cloning the repo, navigate there from the command-line:
 ```
@@ -43,9 +45,9 @@ pip install -r requirements.txt
 
 Simply type "y" to the "proceed([y]/n)?" prompt. Once the packages are installed activate your game environment with the following command:
 
-'''
+```
 conda activate my-game-env
-'''
+```
 
 ## Setup
 
@@ -61,6 +63,7 @@ Now we are able to rn the game adn run the Python script. On the command line, t
 
 ```
 python game.py
+```
 
 > or python ____.py for whatever you saved your game file as, then your file will start running and promt the user for an input
 
