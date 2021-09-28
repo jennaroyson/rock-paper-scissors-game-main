@@ -19,7 +19,7 @@ if user_choice in ["rock","paper","scissors"]:
     print("user chose:") 
     print(user_choice)
 else:
-    print("You choice is not valid. Try typing something else, and let's keep it lowercase!")
+    print("Your choice is not valid. Try typing something else, and let's keep it lowercase!")
     print("Try again")
     exit()
 
