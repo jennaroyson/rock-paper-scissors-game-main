@@ -33,7 +33,9 @@ Use "pwd" function to check that your present working desktop is "rock-paper-sci
 Once in the game file, use Anaconda to activate the virtual environment.
 On the command line type:
 
+```
 conda create -n my-game-env python=3.8
+```
 
 After activating the virtual environment, install package dependencies (see the ["requirements.txt"](/requirements.txt) file):
 
