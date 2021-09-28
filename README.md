@@ -1,6 +1,6 @@
 #READ.md for 
 
-##ROCK-PAPER-SCISSORS GAME
+## ROCK-PAPER-SCISSORS GAME
 
 ## Prerequisites
 
