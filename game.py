@@ -1,7 +1,5 @@
 import random
 
-print("Welcome Player One! Lets play rock, paper, scissors, shoot!")
-print("Welcome! Lets play rock, paper, scissors, shoot!")
 import os
 from dotenv import load_dotenv
 
@@ -50,12 +48,5 @@ else: print("Tie! Looks like you picked the same choice!")
 
 print("Thanks for playing! Lets go again!")
 
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-x = os.getenv("PLAYER_NAME")
-print("")
 
 
